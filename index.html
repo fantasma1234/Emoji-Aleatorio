@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Emojis</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <main>
-        <div class="emoji">Emoji</div>
-        <p class="nome" id="inome">Nome do emoji</p>
+        <h2 id="inome" class="hide"></h2>
+        <div class="emoji hide" id="iemoji"></div>
+        <small id="icodigo" class="codigo hide"></small>
+        <button onclick="gerarEmoji()">Gerar Emoji</button>
     </main>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
